@@ -1,0 +1,42 @@
+#include <iostream>
+#include <stdarg.h>
+
+int srednee(int N, int x, ...) {
+	va_list args;
+	va_start(args, x);
+	int sum = x;
+	int n = N;
+	double sr;
+	while (--N && (x = va_arg(args, int)) !=(-1)) {
+		sum += va_arg(args, int);
+	}
+	sr = sum/n;
+	va_end(args);
+	return sr;
+}
+int even_count(int N, int x, ...){
+    va_list args;
+    va_start(args, x);
+    int n = N;
+    int count = x , m;
+    while(--N){
+        for(count; count <= n; count++)
+        {
+            if(count%2) continue;
+            {
+                std::cout << count;
+                m++;
+            }
+        }
+    }
+return count;
+}
+
+
+
+int main()
+{
+    std::cout << srednee(5, 2, 3, 4 ,8 ,7) << std::endl;
+    std::cout << even_count(5, 2, 4, 5, 6, 1) << std::endl;
+	return 0;
+}
