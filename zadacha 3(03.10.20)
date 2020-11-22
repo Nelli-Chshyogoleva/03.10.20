@@ -32,5 +32,4 @@ while(!fin.eof()){
 }
 fin.close();
 fout.close();
-getch();
     }
