@@ -18,13 +18,12 @@ int even_count(int N, int x, ...){
     va_list args;
     va_start(args, x);
     int n = N;
-    int count = x , m;
+    int count = x, m;
     while(--N){
         for(count; count <= n; count++)
         {
             if(count%2) continue;
             {
-                std::cout << count;
                 m++;
             }
         }
