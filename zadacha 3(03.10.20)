@@ -9,7 +9,7 @@ std::ifstream fin;
 std::ofstream fout;
 char fname[name];
 char line[str];
-std::cout << "\nEnter the name of the input file: ";
+std::cout << "\n Enter the name of the input file: ";
 std::cin >> fname;
 fin.open(fname);
 if(!fin){
