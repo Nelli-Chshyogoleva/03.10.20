@@ -6,7 +6,7 @@
 int main() {
     char infname[1024];
     char outfname[1024];
-    string str;
+    std::string str;
     int rate[256];
 
     std::cout << "Enter the of the input file: ";
