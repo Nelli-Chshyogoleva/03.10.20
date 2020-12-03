@@ -1,6 +1,6 @@
 #include <iostream>
 // R = rows = строки
-// С = cols = столбцы
+// С = columns = столбцы
 // T = top = верх
 // B = bottom = низ
 // RT = right = право
