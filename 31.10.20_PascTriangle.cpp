@@ -16,7 +16,5 @@ int main()
             std::cout << C(i, j) << std::setw(5);
         std::cout << std::endl;
     }
-    std::cin.get();
-    std::cin.get();
     return 0;
 }
