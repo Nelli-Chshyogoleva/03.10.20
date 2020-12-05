@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdio>
+#include <iomanip>
 
 long double C(int N, int K)
 {
@@ -7,15 +8,15 @@ long double C(int N, int K)
 }
 int main()
 {
- int x;
- std::cout << "Enter the number of lines of Pascal's triangle (x > 0): ";
- std::cin >> x;
-for (int i = 0; i <= x; ++i) {
+    int x;
+    std::cout << "Enter the number of lines of Pascal's triangle (x > 0): ";
+    std::cin >> x;
+    for (int i = 0; i <= x; ++i) {
         for (int j = 0; j <= i; ++j)
-            std::cout << C(i, j) << " ";
-            std::cout << std::endl;
+            std::cout << C(i, j) << std::setw(5);
+        std::cout << std::endl;
     }
     std::cin.get();
     std::cin.get();
-return 0;
+    return 0;
 }
