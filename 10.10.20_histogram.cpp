@@ -11,7 +11,6 @@ std::fstream Open_file()
 	f.open(fname);
 	while (!f.is_open())
 	{
-		//system("cls");
 		std::cout << "The file name was entered inncorrectly." << std::endl << "Enter the file name again: ";
 		std::cin >> fname;
 		f.open(fname);
