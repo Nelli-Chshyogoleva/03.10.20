@@ -8,7 +8,6 @@ struct people {
     char phone[16];
     char email[32];
     char birthday[10];
-    
 };
 
 struct DataBase {
