@@ -5,17 +5,18 @@
 4. [x] - alignment.cpp
 5. [x] - shiftArray.cpp
 6. [x] - snake.cpp
-7. [x] - srednee.cpp; even_count.cpp
-8. [x] - copy_from_file.cpp
-9. [ ] - base64
-10. [x] - histogram.cpp
-11. [ ] - merge_sort.cpp
-12. [x] - create.bat
-13. [x] - algem.bat
-14. [x] - op.bat
-15. [x] - Pascal's_Triangle.cpp
-16. [ ] - notebook.cpp
-17. [x] - 7 kyu
-18. [x] - 6 kyu
-19. [x] - 5 kyu
-20. [x] - 4 kyu
+7. [x] - fsolve.cpp
+8. [x] - srednee.cpp; even_count.cpp
+9. [x] - copy_from_file.cpp
+10. [ ] - base64
+11. [x] - histogram.cpp
+12. [ ] - merge_sort.cpp
+13. [x] - create.bat
+14. [x] - algem.bat
+15. [x] - op.bat
+16. [x] - Pascal's_Triangle.cpp
+17. [ ] - notebook.cpp
+18. [x] - 7 kyu
+19. [x] - 6 kyu
+20. [x] - 5 kyu
+21. [x] - 4 kyu
